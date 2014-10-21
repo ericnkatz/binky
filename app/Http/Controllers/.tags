@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HomeController	HomeController.php	/^class HomeController extends Controller {$/;"	c
+ProductsController	ProductsController.php	/^class ProductsController extends Controller {$/;"	c
+amazon	ProductsController.php	/^				$amazon = new Amazon;$/;"	v
+create	ProductsController.php	/^	public function create()$/;"	f
+destroy	ProductsController.php	/^	public function destroy($id)$/;"	f
+edit	ProductsController.php	/^	public function edit($id)$/;"	f
+index	HomeController.php	/^	public function index()$/;"	f
+index	ProductsController.php	/^	public function index()$/;"	f
+products	ProductsController.php	/^		$products = Product::paginate( $limit = 30 );$/;"	v
+result	ProductsController.php	/^				$result = $search = $amazon->search($product->name);$/;"	v
+result	ProductsController.php	/^				\/\/ $result = Cache::remember('amz1n_'.md5($product->name), 1440, function() use ($amazon, $product) {$/;"	v
+search	ProductsController.php	/^				\/\/ 		$search = $amazon->search($product->name);$/;"	v
+show	ProductsController.php	/^	public function show($id)$/;"	f
+store	ProductsController.php	/^	public function store()$/;"	f
+update	ProductsController.php	/^	public function update($id)$/;"	f
